@@ -20,12 +20,12 @@ is a diagram.
             |- Jeans   (20% off)
  
 5.	Each product belongs to a brand which by themselves is running discounts. Below is a table that list Brands Discounts:
-            Wrangler		10%
-            Arrow 		  20%
-            Vero Moda		60%
+            Wrangler   10%
+            Arrow      20%
+            Vero Moda  60%
             UCB		      None
-            Adidas		  5%
-            Provogue		20%
+            Adidas		   5%
+            Provogue		 20%
 
 6.	This way, a product can have three types of discounts applicable:
     a.	Discount on the brand
@@ -42,15 +42,15 @@ the discounts are:
 So, the discount that is applied 20%.
  
 7.	Inventory (the list of items that shop has):
-=======================================================================
-| Id	| Brand 		| Category            | Price		| Discounted Price	|
-=======================================================================
-| 1	  | Arrow		  | Shirts		          | 800		  | 640			          |
-| 2	  | Vero Moda	| Dresses	            | 1400		| 560			          |
-| 3	  | Provogue	| Footwear	          | 1800		| 900			          |
-| 4 	| Wrangler	| Jeans		            | 2200		| 1760		          |
-| 5	  | UCB		    | Shirts		          | 1500		| 1500		          |
-=======================================================================
+===============================================================
+| Id	 | Brand 		   | Category    | Price		 | Discounted Price |
+===============================================================
+| 1	  | Arrow		    | Shirts		    | 800		   | 640			           |
+| 2	  | Vero Moda	 | Dresses	    | 1400		  | 560			           |
+| 3	  | Provogue	  | Footwear	   | 1800		  | 900			           |
+| 4 	 | Wrangler	  | Jeans		     | 2200		  | 1760		           |
+| 5	  | UCB		      | Shirts		    | 1500		  | 1500		           |
+===============================================================
  
 You will be given the above table (without discounted price) in CSV form as standard input. This is the shop inventory.
 
